@@ -1,6 +1,5 @@
 # HTTP/3 & QUIC
 HTTP/3 is the latest version of the HTTP protocol, built on top of the **QUIC** protocol. It is designed to reduce latency, improve security, and enhance performance. Unlike HTTP/2, which relies on **TCP**, HTTP/3 uses QUIC directly.
-
 ## Key Features of HTTP/3
 
 1. Based on QUIC
@@ -22,7 +21,6 @@ HTTP/3 is the latest version of the HTTP protocol, built on top of the **QUIC** 
     - HTTP/3 is built directly on QUIC, which operates over UDP and provides features like congestion control and built-in encryption.
 2. HTTP Layer
     - This layer handles HTTP requests and responses but leverages QUIC features to enhance performance.
-
 ---
 
 ## Advantages of HTTP/3
@@ -33,9 +31,7 @@ HTTP/3 is the latest version of the HTTP protocol, built on top of the **QUIC** 
     - Default encryption and protection against various attacks.
 3. Improved User Experience
     - Faster webpage load times and better video streaming services.
-
 ---
-
 
 ## Challenges of HTTP/3
 
@@ -45,7 +41,6 @@ HTTP/3 is the latest version of the HTTP protocol, built on top of the **QUIC** 
     - Default encryption makes data analysis more challenging.
 3. Incompatibility with Older Networks
     - Some networks and firewalls may block UDP, causing functionality issues.
-
 ---
 
 # QUIC (Quick UDP Internet Connections)
@@ -55,7 +50,6 @@ is a modern transport layer protocol developed by **Google** to enhance speed, s
 - Is built on **UDP**, offering advanced features like **congestion control**, **reliable delivery**, and **multiplexing**.
 - Reduces latency by removing the Three-Way Handshake and integrating **TLS 1.3** encryption at the transport layer.
 - Powers **HTTP/3** by default, making it ideal for streaming, online gaming, and environments with changing networks (e.g., switching between Wi-Fi and mobile data).
-
 ---
 
 ## Full QUIC protocol specifications
@@ -74,7 +68,6 @@ is a modern transport layer protocol developed by **Google** to enhance speed, s
     - Optimized for video streaming, online gaming, and real-time services.
 7. Powering HTTP/3
     - QUIC is the foundation of **HTTP/3**, replacing HTTP/2.
-
 ---
 
 ## Security Aspects of QUIC
@@ -121,7 +114,6 @@ is a modern transport layer protocol developed by **Google** to enhance speed, s
         - Each stream can be processed without affecting others.
     3.  Error Handling and Congestion Control:
         - QUIC employs advanced congestion control algorithms (similar to TCP) and can recover lost packets.
-
 ---
 
 ### Architectural Features
