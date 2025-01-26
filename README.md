@@ -127,14 +127,3 @@ is a modern transport layer protocol developed by **Google** to enhance speed, s
 4. High Adaptability to Network Changes
     - Handles IP address changes without disconnecting.
 ---
-
-
-
-
-
-
-
-
-Create by Mohammad Pooladi
-
-
