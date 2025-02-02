@@ -15,7 +15,6 @@ HTTP/3 is the latest version of the HTTP protocol, built on top of the **QUIC** 
 
 ---
 
-
 ## Architecture of HTTP/3
 
 1. QUIC Layer
@@ -51,8 +50,6 @@ is a modern transport layer protocol developed by **Google** to enhance speed, s
 - Is built on **UDP**, offering advanced features like **congestion control**, **reliable delivery**, and **multiplexing**.
 - Reduces latency by removing the Three-Way Handshake and integrating **TLS 1.3** encryption at the transport layer.
 - Powers **HTTP/3** by default, making it ideal for streaming, online gaming, and environments with changing networks (e.g., switching between Wi-Fi and mobile data).
-
-  
 ---
 
 ## Full QUIC protocol specifications
